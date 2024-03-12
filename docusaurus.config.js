@@ -3,11 +3,11 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GGLVXD BLOG',
-  tagline: 'Dinosaurs are cool',
+  title: 'PixelByte Blog',
+  tagline: 'PixelByte',
   favicon: 'img/favicon.ico',
 
-  url: 'https://blog.gglvxd.eu.org',
+  url: 'https://blog.pixelbyte.dev',
   baseUrl: '/',
   
   onBrokenLinks: 'warn',
@@ -27,7 +27,7 @@ presets: [
         showReadingTime: true,
         routeBasePath: '/',
         blogSidebarTitle: 'All our posts',
-        blogTitle: 'GGLVXD BLOG',
+        blogTitle: 'PixelByte Blog',
         blogDescription: 'All of our blogs',
         blogListComponent: '@theme/BlogListPage',
         blogPostComponent: '@theme/BlogPostPage',
@@ -63,13 +63,13 @@ plugins: [
       dataAdClient: 'ca-pub-5359121068901538',
     },
       navbar: {
-        title: 'GGLVXD BLOG',
+        title: 'PixelByte Blog',
         items: [
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} GGLVXD BLOG.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PixelByte.`,
       },
       prism: {
         theme: prismThemes.github,

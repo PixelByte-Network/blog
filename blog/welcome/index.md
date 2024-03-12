@@ -6,4 +6,4 @@ tags: [GGLVXD, welcome, blog]
 comments: true
 ---
 
-welcome to GGLVXD BLOG
+welcome to PixelByte Blog
